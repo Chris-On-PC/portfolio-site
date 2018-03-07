@@ -1,0 +1,390 @@
+body, html{
+ height: 100%;
+ margin: 0;
+ box-sizing: border-box;
+ font-family:SIMPLIFICA;
+}
+
+img, embed, object, video {
+	max-width: 100%;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
+}
+
+.custom-header1{
+	font-weight: bolder;
+	font-size: 3em;
+	text-shadow:  2px 2px 8px #000000;	
+}
+
+.custom-header2{
+	font-weight: bolder;
+	font-size: 3em;
+	color: white;
+	text-shadow:  2px 2px 8px #000000;	
+}
+
+.custom-header3{
+	font-weight: bolder;
+	text-shadow:  2px 2px 8px #000000;	
+	margin: auto;
+}
+.custom-header-number1{	
+	text-shadow:  2px 2px 8px #00CCFF;
+}
+.custom-date{
+ font-size: 1.2em;
+ font-weight: bolder;
+}
+
+.navbar_custom{
+	padding-left: 5%;
+	padding-right: 5%;
+	box-shadow:  0.00px 1.00px 25px 4px rgba(0,204,255,0.7);		
+}
+.social_media_logo{
+	width: 30px;
+	margin-left: 20px;	
+}
+
+.social_media_logo:hover  {
+    filter: brightness(0.3);
+}
+  /* Create the parallax scrolling effect */
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5{
+
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2%;
+  /* Full height */
+  
+}
+
+.bgimg-1 {
+  height: 100%;
+  background: url(../img/img1a.jpg) no-repeat center center fixed;  
+
+}
+
+.Omni_block{
+	position: relative;
+	border-radius: 8px;
+	width: 50%;
+	margin: auto;
+	background-color: #f5f5f0;
+	padding: 2%;
+	top: 40%;
+	box-shadow:  0.00px 1.00px 25px 4px rgba(0,204,255,0.5);
+
+}
+
+.btn_custom{
+	background-color: #1a8cff;
+	font-weight: bolder;
+	color: #fff;
+	box-shadow:  0.00px 1.00px 25px 4px rgba(0,204,255,0.5);
+	margin-top: 3%;
+}
+
+.chrisbio{
+	padding: 3%;
+}
+.chrisbio p{
+	text-align:justify; 
+	margin-top: 5%; 
+	font-size: 1.1em;
+}
+.img-circle {
+    border-radius: 50%;
+    width: 70%;
+ 	height: auto;
+ 	background-size: cover;
+ 	background-position: center;
+ 	display: inline-block;
+ 	box-shadow:  0.00px 1.00px 25px 4px rgba(47,46,46,0.3);
+}
+
+.bgimg-2 {
+  height: 100%;
+  background: url(../img/img4.jpg) no-repeat center center fixed;  
+  
+}
+
+.bgimg-3 {
+  height: 100%;
+  background: url(../img/img3a.jpg) no-repeat center center fixed;  
+
+}
+
+.bgimg-4 {
+
+  color: #b3b3b3;
+  font-weight: bolder;
+  background-color: black;
+
+}
+
+.bgimg-5 {
+  height: 100%;
+  background: url(../img/img5a.jpg) no-repeat center center fixed;  
+
+}
+
+
+
+.eduBoxes {
+	display: inline-block;
+	padding: 1%;
+	border-radius: 15px;
+  	width: 80%;
+ 	height: auto;
+ 	background-size: cover;
+ 	box-shadow:  0.00px 1.00px 25px 4px rgba(255,255,255,0.5);
+ 	background-color: white;
+ 	margin: 1.5%;
+ 	font-size: 1.2em;
+ 	text-align: justify;
+ }
+
+ .expBoxes {
+ 	clear: both;
+ 	display: block;
+ 	overflow: auto;
+	padding: 1%;
+	border-radius: 15px;
+  	width: 45%;
+ 	height: auto;
+ 	background-size: cover;
+ 	box-shadow:  0.00px 1.00px 25px 4px rgba(255,255,255,0.5);
+ 	background-color: white;
+ 	margin: 1.5%;
+ 	font-size: 1.2em;
+ 	text-align: justify;
+ }
+ .expBoxes-right{
+ 	float: right;
+ }
+ .expBoxes-left{
+ 	float: left;
+ }
+ .SkillColumn{  
+    margin-top: 2.5%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    vertical-align: middle;
+    
+}
+.barAdvanced{
+  max-width: 50%;	
+}
+
+.barIntermediate{
+  max-width: 35%;
+}
+.barBasic{
+  max-width: 20%;	
+}
+.bar{
+	max-height: 35px;	
+	text-align: center; 	
+	flex-wrap: wrap;
+	margin: 1%;
+    border-radius: 10px; 
+    padding: 5px;
+    color: black ;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;  
+    background: linear-gradient(to right, #b3b3b3 , #ffffff);
+    box-shadow:  0.00px 1.00px 25px 4px rgba(153,194,255,0.4);
+
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    color: white;   
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* ------------------------------------------------------------------------------
+   Contact
+-------------------------------------------------------------------------------*/
+ 
+.contact h2 {
+	margin-bottom: 1.5em;
+	font-weight:700;
+	font-size:27px;
+	text-transform:uppercase;
+	letter-spacing:3px;
+}
+/* Add a background color and some padding around the form */
+.contact-form {
+	border-radius: 15px;
+	text-align:center;
+    background-color: white;
+    padding: 2%;
+    margin-top: 5%;
+}
+.contact-form .form-control {
+	border-color: #b3b3b3;
+	margin: 1%;
+	padding: 1%;
+}
+.contact-form label.error {
+	margin-bottom: 12px;
+	font-weight: 300;
+	color: #ea5050;
+}
+.contact-form .btn-default {
+	width: 30%;
+	color: black;
+	border-color: #b3b3b3;
+	background-color: white;
+}
+
+/* When moving the mouse over the submit button, add a darker color */
+.contact-form .btn-default:hover {
+    background-color: #e6faff;
+	box-shadow:  0.00px 1.00px 25px 4px rgba(0,204,255,0.5);
+}
+
+/* ------------------------------------------------------------------------------
+   contact Form Validation
+-------------------------------------------------------------------------------*/
+
+.contact-form label.error i {
+	padding-right: 8px;
+}
+.success-cf, .error-cf {
+	display: none;
+}
+.success-cf p {
+	background: rgba(39, 174, 96, 0.7);
+}
+.error-cf p {
+	background: rgba(231, 76, 60, 0.7);
+}
+.contact-form {
+	position: relative;
+}
+.contact-form .success-cf p, .contact-form .error-cf p {
+	position: absolute;
+	display: block;
+	top: 40%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	z-index: 10;
+	color: #fff;
+	border-radius: 2px;
+	padding: .75em;
+}
+
+.bottom-container{
+	text-align: center;
+}
+
+footer{
+	height: 100px;
+	display: block;
+	background-color: black;
+	color: #b3b3b3;
+	font-size: 1.2em;
+	padding: 2%;
+	text-align: center;
+}
+
+@media screen and (max-width: 990px){
+  .social_media_logo{
+  	margin-top: 20px;
+  }
+  .expBoxes{
+  	
+  	float: none;
+  	margin-right: auto;
+  	margin-left: auto;
+  	width: 80%;
+
+  }
+}
+
+@media screen and (max-width: 410px){
+  .eduBoxes{
+  	font-size: 1em;
+  	text-align: center;
+  }
+
+  .expBoxes{
+  	font-size: 1em;
+  	text-align: center;
+  }
+  .Omni_block h1{
+  	font-size: 2em;
+  }
+  .Omni_block h4{
+  	font-size: 1em;
+  }
+}
+
+
+/* Use lower res image on smaller devices.*/
+/*
+@media screen and (max-width: 960px){
+  .bgimg-1{
+  	background: url(../img/img1b.jpg) center center no-repeat fixed;
+  }
+  .bgimg-2{
+  	background: url(../img/img2b.jpg) center center no-repeat fixed;
+  }
+  .bgimg-3{
+  	background: url(../img/img3b.jpg) center center no-repeat fixed;
+  }
+
+  .bgimg-5{
+  	background: url(../img/img5b.jpg) center center no-repeat fixed;
+  }
+}
+*/
+/* Turn off parallax scrolling for all tablets and phones.*/
+@media only screen and (max-device-width: 1024px) {
+
+	.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5{
+	  background-attachment: scroll;
+
+	}
+    
+}
+@media screen and (max-width: 767px)
+{
+	.bar{
+		margin: auto;
+	}
+
+}
+/*
+@font-face {
+    font-family: SIMPLIFICA;
+    src: url(../fonts/SIMPLIFICA/SIMPLIFICA Typeface.ttf);
+}
+*/
