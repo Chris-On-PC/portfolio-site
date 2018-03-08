@@ -1,11 +1,15 @@
-body, html{
+body, 
+html{
  height: 100%;
  margin: 0;
  box-sizing: border-box;
  font-family:SIMPLIFICA;
 }
 
-img, embed, object, video {
+img, 
+embed, 
+object, 
+video {
 	max-width: 100%;
 }
 
@@ -34,9 +38,11 @@ a.anchor {
 	text-shadow:  2px 2px 8px #000000;	
 	margin: auto;
 }
+
 .custom-header-number1{	
 	text-shadow:  2px 2px 8px #00CCFF;
 }
+
 .custom-date{
  font-size: 1.2em;
  font-weight: bolder;
@@ -47,6 +53,7 @@ a.anchor {
 	padding-right: 5%;
 	box-shadow:  0.00px 1.00px 25px 4px rgba(0,204,255,0.7);		
 }
+
 .social_media_logo{
 	width: 30px;
 	margin-left: 20px;	
@@ -55,8 +62,13 @@ a.anchor {
 .social_media_logo:hover  {
     filter: brightness(0.3);
 }
+
   /* Create the parallax scrolling effect */
-.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5{
+.bgimg-1, 
+.bgimg-2, 
+.bgimg-3, 
+.bgimg-4, 
+.bgimg-5{
 
   position: relative;
   background-attachment: fixed;
@@ -83,7 +95,6 @@ a.anchor {
 	padding: 2%;
 	top: 40%;
 	box-shadow:  0.00px 1.00px 25px 4px rgba(0,204,255,0.5);
-
 }
 
 .btn_custom{
@@ -97,11 +108,13 @@ a.anchor {
 .chrisbio{
 	padding: 3%;
 }
+
 .chrisbio p{
 	text-align:justify; 
 	margin-top: 5%; 
 	font-size: 1.1em;
 }
+
 .img-circle {
     border-radius: 50%;
     width: 70%;
@@ -169,19 +182,22 @@ a.anchor {
  	font-size: 1.2em;
  	text-align: justify;
  }
+
  .expBoxes-right{
  	float: right;
  }
+
  .expBoxes-left{
  	float: left;
  }
+
  .SkillColumn{  
     margin-top: 2.5%;
     margin-bottom: 1%;
     margin-left: 1%;
-    vertical-align: middle;
-    
+    vertical-align: middle;    
 }
+
 .barAdvanced{
   max-width: 50%;	
 }
@@ -189,9 +205,11 @@ a.anchor {
 .barIntermediate{
   max-width: 35%;
 }
+
 .barBasic{
   max-width: 20%;	
 }
+
 .bar{
 	max-height: 35px;	
 	text-align: center; 	
@@ -209,7 +227,9 @@ a.anchor {
 }
 
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
+input[type=text], 
+select, 
+textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */  
     border: 1px solid #ccc; /* Gray border */
@@ -238,6 +258,7 @@ input[type=submit] {
 	text-transform:uppercase;
 	letter-spacing:3px;
 }
+
 /* Add a background color and some padding around the form */
 .contact-form {
 	border-radius: 15px;
@@ -246,16 +267,19 @@ input[type=submit] {
     padding: 2%;
     margin-top: 5%;
 }
+
 .contact-form .form-control {
 	border-color: #b3b3b3;
 	margin: 1%;
 	padding: 1%;
 }
+
 .contact-form label.error {
 	margin-bottom: 12px;
 	font-weight: 300;
 	color: #ea5050;
 }
+
 .contact-form .btn-default {
 	width: 30%;
 	color: black;
@@ -276,19 +300,28 @@ input[type=submit] {
 .contact-form label.error i {
 	padding-right: 8px;
 }
-.success-cf, .error-cf {
+
+.success-cf, 
+.error-cf {
 	display: none;
 }
+
 .success-cf p {
 	background: rgba(39, 174, 96, 0.7);
 }
+
 .error-cf p {
 	background: rgba(231, 76, 60, 0.7);
 }
+
 .contact-form {
 	position: relative;
 }
-.contact-form .success-cf p, .contact-form .error-cf p {
+
+.contact-form 
+.success-cf p, 
+.contact-form 
+.error-cf p {
 	position: absolute;
 	display: block;
 	top: 40%;
@@ -319,6 +352,7 @@ footer{
   .social_media_logo{
   	margin-top: 20px;
   }
+
   .expBoxes{
   	
   	float: none;
@@ -327,6 +361,7 @@ footer{
   	width: 80%;
 
   }
+
 }
 
 @media screen and (max-width: 410px){
@@ -339,12 +374,15 @@ footer{
   	font-size: 1em;
   	text-align: center;
   }
+
   .Omni_block h1{
   	font-size: 2em;
   }
+
   .Omni_block h4{
   	font-size: 1em;
   }
+
 }
 
 
@@ -375,6 +413,7 @@ footer{
 	}
     
 }
+
 @media screen and (max-width: 767px)
 {
 	.bar{
